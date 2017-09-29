@@ -22,11 +22,13 @@ public class A2Q4 {
             return 0;
         }
         int n = stone%10;
+        // maths
         if(n == 1||n == 3||n == 5||n == 7||n== 9){
            stone = 3*stone+1;
         }else if(n == 2||n == 4||n == 6||n == 8||n== 0){
             stone = stone/2;
         }
+        // recoursion
         return hailstone(stone);
     }
     public static void main(String[] args) {

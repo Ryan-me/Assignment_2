@@ -28,7 +28,7 @@ public class A2Q1 {
         
     }
     public static void main(String[] args) {
-        // TODO code application logic here
+        // make it work
         A2Q1 test = new A2Q1();
         Scanner in = new Scanner(System.in);
         System.out.println("enter a number");

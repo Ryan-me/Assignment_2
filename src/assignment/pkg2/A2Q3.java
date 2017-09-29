@@ -16,9 +16,11 @@ public class A2Q3 {
      * @param args the command line arguments
      */
     public static int triangle(int tri, int n){
+        // base
         if (tri == 0){
             return n;
         }
+        // add the number of blocks to the triangle
         n = n + tri;
         tri = tri - 1;
         return triangle(tri,n);

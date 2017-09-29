@@ -37,7 +37,7 @@ public class A2Q2 {
          return digitalroot(r,add);
      }
     public static void main(String[] args) {
-        // TODO code application logic here
+        // make it work
         A2Q2 test = new A2Q2();
         Scanner in = new Scanner(System.in);
         System.out.println("enter the number");
